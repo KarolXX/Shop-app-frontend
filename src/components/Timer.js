@@ -38,7 +38,6 @@ const Timer = ({ setThisProduct, setIsDeleting, id }) => {
             .then(resp => {
                 if (resp.status === 204) {
                     console.log('resotring');
-                    setRemainingTime(60);
                     setIsDeleting(false);
                 }
             })
