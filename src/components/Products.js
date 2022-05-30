@@ -12,7 +12,7 @@ const Products = () => {
             .then(resp => resp.json())
             .then(resp => {
                 console.log(resp);
-                setProducts(resp);
+                setProducts(resp.content);
             })
     }, [page]);
 
