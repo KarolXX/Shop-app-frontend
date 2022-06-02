@@ -13,6 +13,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ![image](https://user-images.githubusercontent.com/71709330/163167236-a52b8d0b-e311-480e-a55a-5d3c8d81aa89.png)
 
+## Shortcomings:
+* There is no form to create entities in frontend (Postman can create them)
 
 ## Available Scripts
 
